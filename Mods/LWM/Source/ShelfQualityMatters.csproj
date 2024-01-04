@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3901" />
+    <PackageReference Include="Lib.Harmony" Version="2.2.2">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LWM.DeepStorage">
+      <HintPath>..\..\..\..\1617282896\1.4\Assemblies\LWM.DeepStorage.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

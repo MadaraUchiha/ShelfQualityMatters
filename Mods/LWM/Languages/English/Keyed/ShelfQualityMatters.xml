@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SQM_Settings_Description>Configure how many items-per-cell each quality level of the vanilla shelf has. Vanilla value is "3" for all quality levels. Translates to other LMG compatible storage based on base storage of the storage unit vs vanilla shelf base unit of 3.</SQM_Settings_Description>
+</LanguageData>
